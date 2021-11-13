@@ -66,7 +66,7 @@ class HBNBCommand(cmd.Cmd):
             usage: show <class_name> <id>
         """
         args = shlex.split(arg)
-        model.storage.reload()
+        models.storage.reload()
         if len(args) < 1:
             print(self.errors["missingClass"])
         elif args[0] in self.classes:
