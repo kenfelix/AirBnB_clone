@@ -5,7 +5,7 @@ Contains the entry point of the command interpreter.
 """
 import cmd
 import shlex
-import model
+import models
 
 
 class HBNBCommand(cmd.Cmd):
