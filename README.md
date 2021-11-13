@@ -112,4 +112,4 @@ $
 ## AUTHORS
  
 * **Bamulanzeki Alex** - [Alexbamulanzeki](https://github.com/Alexbamulanzeki)
-* **kenfelix** - [kenfelix](https://github.com/kenfelix)
+* **Emeka Kenneth Okafor** - [kenfelix](https://github.com/kenfelix)
