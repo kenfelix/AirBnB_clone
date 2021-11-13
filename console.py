@@ -7,6 +7,7 @@ import cmd
 import shlex
 import models
 
+from models.base_model import BaseModel
 
 class HBNBCommand(cmd.Cmd):
     """The class of our HBNB project"""
@@ -20,6 +21,10 @@ class HBNBCommand(cmd.Cmd):
         "missingAttr": "** attribute name missing **",
         "missingValue": "** value missing **"
     }
+
+    classes = [
+        "BaseModel", "Amenity", "City", "Place", "Review", "State", "User"
+    ]
 
     def do_quit(self, arg):
         """
